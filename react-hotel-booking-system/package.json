@@ -1,0 +1,52 @@
+{
+  "name": "react-hotel-booking-system",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.6.0",
+    "@fortawesome/free-solid-svg-icons": "^6.6.0",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "axios": "^1.7.7",
+    "bootstrap": "^3.4.1",
+    "date-fns": "^4.1.0",
+    "firebase": "^10.14.0",
+    "fontawesome": "4.7",
+    "jquery": "^1.12.4",
+    "jquery-ui": "^1.14.0",
+    "jquery-ui-touch-punch": "^0.2.3",
+    "jwt-decode": "^4.0.0",
+    "owl-carousel": "^1.0.0",
+    "owl.carousel": "^2.3.4",
+    "prop-types": "^15.8.1",
+    "react": "^18.3.1",
+    "react-bootstrap": "^2.10.5",
+    "react-datepicker": "^7.4.0",
+    "react-dom": "^18.3.1",
+    "react-fontawesome": "^1.7.1",
+    "react-router-dom": "^6.26.2",
+    "react-slick": "^0.30.2",
+    "react-slider": "^2.0.6",
+    "slick-carousel": "^1.8.1",
+    "starrr": "^2.0.4",
+    "tinysort": "^3.2.8"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "eslint": "^9.9.0",
+    "eslint-plugin-react": "^7.35.0",
+    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
+    "eslint-plugin-react-refresh": "^0.4.9",
+    "globals": "^15.9.0",
+    "vite": "^5.4.1"
+  }
+}

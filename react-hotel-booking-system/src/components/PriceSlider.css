@@ -1,0 +1,19 @@
+
+.slider-track-unfilled {
+  background-color: transparent;
+  height: 5px;
+}
+
+.slider-track-filled {
+  background-color: #08c1da;
+  height: 5px;
+}
+
+.slider-thumb {
+  background-color: #08c1da;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  margin-top: -5px;
+  cursor: pointer;
+}

@@ -1,0 +1,79 @@
+.auth-container {
+    max-width: 400px;
+    padding: 20px;
+    border: 0.5px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    margin: 20px auto 50px auto;
+}
+
+.auth-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #23def7;
+}
+
+.register-link {
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.register-link a {
+    color: #23def7;
+    text-decoration: none;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #23def7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: 800;
+    border-radius: 10px;
+}
+
+button[type="submit"]:hover {
+    background-color: rgb(34, 80, 128)
+}
+
+.error-message {
+    text-align: center;
+    color: #b10505;
+    font-weight: 800;
+    font-size: 20px;
+
+}
+
+.success-message {
+    text-align: center;
+    color: #051fb1;
+    font-weight: 800;
+    font-size: 20px;
+
+}
