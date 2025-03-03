@@ -54,10 +54,61 @@ code .
 npm install
 ```
 
-12. 
+12. Run the application by typing this:
+```
+npm run dev
+```
+
+13. Go to the Api on [WebConfig file](/hotel-booking-system/src/main/java/com/hotel/booking/system/api/security/config/WebConfig.java) to configure the CORS, by adding the React front end link.
+```
+.allowedOrigins("http://localhost:8080", "add front-end link here")
+```
+
+14. Once that is done you can use the front end application freely.
+
 **Note**: The Rest API must always be running inorder to be able to properly use the front-end application.
 
-**Note**: The Rest API link address might differ from what is in the [Global Constants typescript file](https://github.com/LuckyMaley/Angular-Full-Stack-System/blob/main/LLM-eCommerce-Ang/src/app/global-constants.ts) so you need to change that link address to make the Rest API's link address so that the front end can communicate with the api correctly
+**Note**: If the Rest API link address is different from what is in the [Api Service javascript file](/react-hotel-booking-system/src/components/services/ApiService.js), you need to change that front end link address to the Rest API's link address so that the front end can communicate with the api correctly.
+
+**Note**: The front end application url link should be included in the CORS of the API to be able to use it properly without any issues.
 
 ## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
+![Screenshot 2025-03-03 192111](https://github.com/user-attachments/assets/d92b3b51-837c-4f36-a018-9b1bdaa107ef)
+
+![Screenshot 2025-03-03 192126](https://github.com/user-attachments/assets/90b3eec0-598c-40db-9101-73f910f0af12)
+
+![Screenshot 2025-03-03 192150](https://github.com/user-attachments/assets/83907176-71db-42b4-8c0e-3d87187d2977)
+
+![Screenshot 2025-03-03 192255](https://github.com/user-attachments/assets/200efc8e-57d0-4e70-b9b8-339474c99459)
+
+![Screenshot 2025-03-03 192312](https://github.com/user-attachments/assets/3f12d6d1-e82e-4271-a0e9-3792117afa64)
+
+![Screenshot 2025-03-03 192326](https://github.com/user-attachments/assets/2859eef5-6730-4abe-9a75-1659f0f1e03e)
+
+![Screenshot 2025-03-03 192351](https://github.com/user-attachments/assets/9cfad7a1-a826-4b71-9c42-0f3013e69185)
+
+![Screenshot 2025-03-03 192411](https://github.com/user-attachments/assets/32fa191c-43a5-40bc-933a-482137231449)
+
+![Screenshot 2025-03-03 192429](https://github.com/user-attachments/assets/9cffe2ed-e30f-4c9f-9c91-d644a006037a)
+
+![Screenshot 2025-03-03 192457](https://github.com/user-attachments/assets/726ce262-daf7-4d90-90c9-a429fc7bcdef)
+
+![Screenshot 2025-03-03 192615](https://github.com/user-attachments/assets/90b7b199-29e8-40ef-8207-cf075488ce4d)
+
+![Screenshot 2025-03-03 192652](https://github.com/user-attachments/assets/8ee6717d-05b9-498d-89f5-91b8370d2e24)
+
+![Screenshot 2025-03-03 192733](https://github.com/user-attachments/assets/330988ac-ed29-4c4e-b4d9-7ff1c5c9cd4d)
+
+![Screenshot 2025-03-03 192801](https://github.com/user-attachments/assets/bc10e00d-9b53-46e7-bd8a-a735829673aa)
+
+![Screenshot 2025-03-03 192820](https://github.com/user-attachments/assets/81242faa-192a-4376-96d3-1c1030068bfc)
+
+![Screenshot 2025-03-03 192845](https://github.com/user-attachments/assets/13b4da22-af06-453e-ace3-82e527c90fdd)
+
+![Screenshot 2025-03-03 192907](https://github.com/user-attachments/assets/c740747e-7375-4e96-b417-a8d044c1a67a)
+
+![Screenshot 2025-03-03 192920](https://github.com/user-attachments/assets/676a918c-bfda-4250-bda6-3618ef4b70e3)
+
+![Screenshot 2025-03-03 192934](https://github.com/user-attachments/assets/92afe32e-aeed-42f5-97e6-7f3eae84d75b)
+
+![Screenshot 2025-03-03 192949](https://github.com/user-attachments/assets/280974b2-e1e9-4aab-99ab-e143a95eefa7)
