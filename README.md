@@ -73,6 +73,8 @@ npm run dev
 **Note**: The front end application url link should be included in the CORS of the API to be able to use it properly without any issues.
 
 ## Visuals
+![Screenshot 2025-03-03 193636](https://github.com/user-attachments/assets/ce77bcda-8178-488b-804d-f5f805faf571)
+
 ![Screenshot 2025-03-03 192111](https://github.com/user-attachments/assets/d92b3b51-837c-4f36-a018-9b1bdaa107ef)
 
 ![Screenshot 2025-03-03 192126](https://github.com/user-attachments/assets/90b3eec0-598c-40db-9101-73f910f0af12)
