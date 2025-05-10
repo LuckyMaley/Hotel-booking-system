@@ -8,6 +8,59 @@ This comprehensive management and booking system designed to enhance the experie
 ## Tools
 ![Static Badge](https://img.shields.io/badge/VScode-1.97.0%20or%20later-yellow) ![Static Badge](https://img.shields.io/badge/MySQL-v8.0.36%20or%20later-red) ![Static Badge](https://img.shields.io/badge/Eclipse%20IDE-4.33.0%20or%20later-green) ![Static Badge](https://img.shields.io/badge/Springboot%20-3.3.4%20or%20later-orange)
 
+## Branching Strategy
+
+A structured branching strategy must be followed to keep the codebase organized:
+
+- **main**: Stable, production-ready code.
+- **dev**: Ongoing development. Feature branches are merged here first
+
+- **feature/**: New features.
+  - Example: `feature/add-user-authentication`
+- **bugfix/**: Bug fixes.
+  - Example: `bugfix/fix-app-response`
+- **chore/**: Maintenance tasks, documentation,or configurations.
+  - Example: `chore/add-read-me`
+- **Hotfix branches**: Urgent fixes to `main`.
+   - Example: `hotfix/critical-bug-in-production`
+
+### Notes:
+- Use **kebab-case** (lowercase with hyphens) for branch names (e.g., `feature/react-make-payment`).
+- Branch names should be **descriptive** but concise.
+- Avoid spaces, uppercase letters, or special characters.
+
+## Development Workflow
+
+1. **Create a New Branch**:
+   ```bash
+   git checkout -b feature/add-user-authentication
+   ```
+
+2. **Make Changes**:
+   ```bash
+   git add .
+   git commit -m "Implement user authentication feature"
+   ```
+
+3. **Push Your Branch**:
+   ```bash
+   git push origin feature/add-user-authentication
+   ```
+
+4. **Sync with the `dev` Branch**:
+   Before creating a merge request, ensure your branch is up-to-date with the latest changes from the `dev` branch:
+   ```bash
+   git pull origin dev
+   ```
+   If there are any merge conflicts, resolve them in your branch locally. Once resolved, commit the changes and push them back to your branch:
+   
+   ```bash
+   git push origin feature/add-user-authentication
+   ```
+
+5. **Create a Merge Request**:
+   - Open a pull request on GitHub targeting `dev` for code review.
+
 ## Installation
 The React front end application depends on the java springboot rest api and mysql instance. The Springboot application and Mysql instance have to be running in order to be able to use the front end.
 
